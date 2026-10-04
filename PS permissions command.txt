@@ -1,0 +1,4 @@
+Run Application command:  powershell -ExecutionPolicy Bypass -File ".\Replace-DocxKeywords.ps1" -Path "." -MappingsFile ".\mappings-.xlsx" -DryRun -Recurse
+
+Unblock Command: Unblock-File .\Replace-DocxKeywords.ps1
+
